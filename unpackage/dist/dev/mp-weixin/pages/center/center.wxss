@@ -1,0 +1,176 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.controller-list {
+  margin: 20px auto;
+  background-color: white;
+  width: 85%;
+  padding: 0 15px;
+  border-radius: 7px;
+}
+.chat-custom-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.chat-custom-text {
+  font-size: 12px;
+  color: #999;
+}
+.center-nav {
+  margin: 20px auto;
+  background-color: white;
+  width: 85%;
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+.center-nav .noOrder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  line-height: 50px;
+}
+.center-nav .order-list .order {
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center-nav .order-list .order .order-list-left {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+.center-nav .order-list .order .order-list-right {
+  padding-left: 10px;
+}
+.center-nav .center-tips {
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #d5d5d5;
+}
+.tips {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tips .tips-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tips .tips-item .tips-item-top {
+  font-size: 18px;
+  font-weight: 600;
+}
+.tips .tips-item .tips-item-bottom {
+  color: #515151;
+  font-size: 13px;
+}
+button {
+  border: none;
+}
+.top-nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-nav .nav-left {
+  display: flex;
+  flex: 1;
+}
+.top-nav .nav-left .nav-ava:active {
+  background-color: #eeeeee;
+}
+.top-nav .nav-left .nav-ava {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  margin-right: 8px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.top-nav .nav-left .nav-ava .ava-img-center {
+  width: 45px !important;
+  height: 45px !important;
+}
+.top-nav .nav-left .nicknamearea {
+  display: flex;
+  flex-direction: column;
+}
+.top-nav .nav-left .nicknamearea .say {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: baseline;
+}
+.top-nav .nav-left .nicknamearea .say .myinput {
+  margin: 5px 0 0 4px;
+  max-width: 170px;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.top-nav .nav-right {
+  display: flex;
+  background-color: rgba(229, 107, 0, 0.6);
+  color: white;
+  border-radius: 23px 0 0 23px;
+  padding: 6px;
+}
+.top-nav .nav-right .phone-icon {
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+.top-nav .nav-right .cousom-service {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.top-nav .nav-right .cousom-service .kf {
+  font-size: 8px;
+}
+.top-nav .nav-right .cousom-service .wdkf {
+  font-size: 10px;
+  font-weight: 400;
+}
+page {
+  height: 100%;
+  background-color: #eeeeee;
+}

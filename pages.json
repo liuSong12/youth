@@ -1,0 +1,128 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/store/store",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "热派小卖铺",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/orders/orders",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "接单",
+                "enablePullDownRefresh": true
+            }
+            
+        },
+		{
+            "path" : "pages/center/center",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [
+			{
+				"root": "subpackage",
+				"pages": [{
+					"path": "address/address",
+					"style": {
+						"navigationBarTitleText": "收货地址",
+						"enablePullDownRefresh": false
+					}
+				},{
+                    "path" : "order/order",
+                    "style" :{
+						"navigationBarTitleText": "订单",
+						"enablePullDownRefresh": false
+					}
+                }    ,{
+                    "path" : "cooperate/cooperate",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "加入我们",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "business/business",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "入盟热派",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "food/food",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "topUp/topUp",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+			}
+		],
+	"tabBar": {
+			"backgroundColor": "#efefef",
+			"selectedColor": "#e56b00",
+			"list": [
+				{
+					"pagePath": "pages/index/index",
+					"iconPath": "static/tabbar/sy_active.png",
+					"selectedIconPath": "static/tabbar/sy.png",
+					"text": "首页"
+				},
+				{
+					"pagePath": "pages/store/store",
+					"iconPath": "static/tabbar/food.png",
+					"selectedIconPath": "static/tabbar/food_active.png",
+					"text": "零食"
+				},
+				{
+					"pagePath": "pages/orders/orders",
+					"iconPath": "static/tabbar/order.png",
+					"selectedIconPath": "static/tabbar/order_active.png",
+					"text": "接单"
+				},
+				{
+					"pagePath": "pages/center/center",
+					"iconPath": "static/tabbar/info.png",
+					"selectedIconPath": "static/tabbar/info_active.png",
+					"text": "个人中心"
+				}
+			]
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "热派青春",
+		"navigationBarBackgroundColor": "#e56b00",
+		"backgroundColor": "#e56b00"
+	},
+	"uniIdRouter": {}
+}

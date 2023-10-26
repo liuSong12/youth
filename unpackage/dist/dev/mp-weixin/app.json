@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/store/store",
+    "pages/orders/orders",
+    "pages/center/center"
+  ],
+  "subPackages": [
+    {
+      "root": "subpackage",
+      "pages": [
+        "address/address",
+        "order/order",
+        "cooperate/cooperate",
+        "business/business",
+        "food/food",
+        "topUp/topUp"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "热派青春",
+    "navigationBarBackgroundColor": "#e56b00",
+    "backgroundColor": "#e56b00"
+  },
+  "tabBar": {
+    "backgroundColor": "#efefef",
+    "selectedColor": "#e56b00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/sy_active.png",
+        "selectedIconPath": "static/tabbar/sy.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "iconPath": "static/tabbar/food.png",
+        "selectedIconPath": "static/tabbar/food_active.png",
+        "text": "零食"
+      },
+      {
+        "pagePath": "pages/orders/orders",
+        "iconPath": "static/tabbar/order.png",
+        "selectedIconPath": "static/tabbar/order_active.png",
+        "text": "接单"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabbar/info.png",
+        "selectedIconPath": "static/tabbar/info_active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

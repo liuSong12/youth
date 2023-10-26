@@ -1,0 +1,14 @@
+
+.noting{
+		text-align: center;
+		color: gray;
+		font-size: 15px;
+		margin: 10px auto;
+}
+.show-item{
+		margin-top: 50px;
+}
+page {
+		background-color: #efefef;
+}
+

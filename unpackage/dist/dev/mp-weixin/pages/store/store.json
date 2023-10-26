@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "热派小卖铺",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-notice-bar": "../../uni_modules/uni-notice-bar/components/uni-notice-bar/uni-notice-bar",
+    "goods-list": "../../components/goodsList"
+  }
+}

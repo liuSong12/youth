@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "wly-tabnav": "../../uni_modules/wly-tabnav/components/wly-tabnav/wly-tabnav",
+    "order-list": "../../components/orderList"
+  }
+}

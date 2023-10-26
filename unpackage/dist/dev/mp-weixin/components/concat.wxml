@@ -1,0 +1,1 @@
+<view class="model"><view class="form"><view class="mod" bindtap="{{a}}">+</view><view class="name item"><text selectable class="aaa">{{b}}</text></view><view class="title"> tips： 沟通是交流的开端;沟通是友谊的桥梁;沟通是心与心的交流;沟通是真诚和友谊的伙伴 </view></view></view>

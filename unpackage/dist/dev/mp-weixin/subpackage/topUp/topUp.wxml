@@ -1,0 +1,1 @@
+<view class="data-v-55a6a65b"><input class="myinpu data-v-55a6a65b" type="number" placeholder="请输入充值金额" value="{{a}}" bindinput="{{b}}"></input><button class="btn data-v-55a6a65b" bindtap="{{c}}">提交</button></view>
