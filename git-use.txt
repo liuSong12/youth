@@ -1,0 +1,19 @@
+设置远程仓库 git remote add origin http://git.XXXX.com/XXX/XXX.git/
+查看远程仓库 git remote -v
+直接修改远程 origin 的git仓库地址 git remote set-url origin http://git.XXXX.com/XXX/XXX.git/
+
+
+
+删除分支 git push origin --delete [远程分支名称]  
+删除分支 git branch -d [本地分支名称]
+
+创建本地分支 git branch [分支名称]
+创建远程分支 在本地新分支上提交git push origin 远程要创建的分支（与本地新分支一样）
+
+切换本地分支 git checkout [本地分支名称]
+拉取远程分支 git pull origin [分支名称]
+代码提交本地仓库 git add .
+代码上传说明 git ciommit -m 说明
+代码上传 git push origin [分支名称]
+
+
