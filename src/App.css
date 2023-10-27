@@ -1,0 +1,47 @@
+.adm-form-item.adm-form-item-horizontal .adm-list-item-content-prefix {
+	width: 1.5rem;
+}
+
+.adm-card {
+	padding: 0.05rem;
+	margin: 0.05rem;
+	border-radius: 0.05rem;
+}
+
+.adm-jumbo-tabs-tab-title {
+	font-size: 0.29rem;
+}
+
+.mymodel {
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .3);
+	display: flex;
+	justify-content: center;
+}
+
+.mymodel-form {
+	width: 90%;
+	height: fit-content;
+	background: white;
+	border-radius: 5px;
+	margin-top: 100px;
+	padding: 20px;
+}
+.imgpicker .adm-image-uploader-space{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.imgpicker .adm-image-uploader-space > div{
+	flex:1 1 20%;
+}
+
+.uploadbtn{
+	margin-top: 20px !important;
+	width: 100%;
+}

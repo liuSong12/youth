@@ -1,0 +1,20 @@
+.model{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7);
+	display: flex;
+	justify-content: center;
+}
+.form{
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 3rem;
+	width: 90%;
+	height: 4rem;
+	overflow: hidden;
+}
+.subbtn{
+	width: 80%;
+	margin-left: 10%;
+}

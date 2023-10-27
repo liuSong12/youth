@@ -1,0 +1,21 @@
+.inp label{
+	width: 100%;
+	font-size: 0.16rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.form{
+	padding: 0.1rem 0;
+	margin-top: 0.2rem;
+}
+.inpitem input{
+	font-size: 0.12rem;
+	line-height: 0.55rem;
+}
+.swith{
+	transform: scale(0.8);
+}
+.flexImg{
+	display: flex;
+}

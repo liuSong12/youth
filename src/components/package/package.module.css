@@ -1,0 +1,6 @@
+.top-nav{
+	background-color: white;
+	position:sticky !important;
+	z-index: 100;
+	top:0;
+}

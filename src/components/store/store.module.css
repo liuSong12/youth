@@ -1,0 +1,42 @@
+.content {
+  /* height: 50px; */
+}
+
+.footer {
+  padding-top: 11px;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.customBody {
+  color: var(--adm-color-success);
+}
+
+.rowitem{
+	display: flex;
+	padding: 3px 0;
+}
+.rowitem > div:nth-child(1){
+	width: 3rem;
+}
+.rowitem > div:last-child{
+	flex: 1;
+}
+.rowitemlist{
+	display: flex;
+	align-items: baseline;
+}
+.rowitemlist > div:first-child{
+	width:fit-content;
+}
+.rowitemlist > div:last-child{
+	flex: 1;
+}
+.top-nav{	
+	background-color: white;
+	position:sticky !important;
+	z-index: 100;
+	top:0;
+	box-sizing: border-box;
+}

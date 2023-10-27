@@ -1,0 +1,8 @@
+{
+	"rules":{
+		"no-unused-expressions":"off",
+		"no-restricted-globals":"off",
+		"no-undef":"off",
+		"eqeqeq":"off"
+	}
+} 
