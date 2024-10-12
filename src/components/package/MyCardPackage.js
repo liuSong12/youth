@@ -116,6 +116,21 @@ function MyCardPackage({status,SuperSending,changePackageNum}){
 		})	
 	}
 	
+	const bugUpdate = (item)=>{
+		
+		Modal.confirm({
+			content: '确认后执行',
+			onConfirm: () => {
+				axios.post(`/manage/bugUpdate`,{packageId:item.id}).then(res=>{
+					if(res.data.code!==1) return;
+					setList([])
+					page.current = 0
+					setHasMore(true)
+				})
+			}
+		})	
+	}
+	
 	return (
 		<>
 			{isShow && <Model hide={()=>setIsShow(false)} upload={upload} uploadImg="uploadpackageImg"/>}
@@ -208,6 +223,13 @@ function MyCardPackage({status,SuperSending,changePackageNum}){
 					</div>
 					}
 			   </div>
+			   {
+				   item.status == 0 && item.finishImgArr && <div className={styles.footer}>
+						<Button size="mini" color="warning" onClick={()=>{
+							bugUpdate(item)
+						}}>仅送达</Button>
+				   </div>
+			   }
 			   {
 				   (item.status==0 || item.status==1) && !SuperSending && <div className={styles.footer} onClick={e => e.stopPropagation()}>
 					 <Button size="mini" color={item.status==0 ? "primary":"danger"} onClick={() => {handleClick(item)}}>
